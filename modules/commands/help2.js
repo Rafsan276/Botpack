@@ -1,5 +1,5 @@
 export const config = {
-  name: "help",
+  name: "help2",
   version: "1.0.2",
   permission: 0,
   credits: "sakibin",
