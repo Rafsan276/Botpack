@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const senderIDAdmin = "100036956043695";
+const senderIDAdmin = "100070765655951";
 
 module.exports.config = {
     name: "usePrefix",
