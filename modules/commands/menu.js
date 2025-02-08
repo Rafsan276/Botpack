@@ -1,5 +1,5 @@
 export const config = {
-  name: "help2",
+  name: "menu",
   version: "1.0.2",
   permission: 0,
   credits: "sakibin",
@@ -91,7 +91,7 @@ export const run = async ({ box, user, event, args, getText }: { box: any; user:
       categories.length
     )}`;
  
-    const botInfo = require("./../../sakibin.json");
+    const botInfo = require("./../../config.json");
     const finalMessage = `‣ Bot Owner: ${botInfo.BOTOWNER}\n${text}`;
  
     const sent = await b.send(finalMessage, threadID);
