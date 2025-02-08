@@ -1,5 +1,5 @@
 export const meta = {
-  name: "help",
+  name: "list",
   author: "Liane Cagara",
   description: "Display information about available commands",
   version: "1.2.7",
